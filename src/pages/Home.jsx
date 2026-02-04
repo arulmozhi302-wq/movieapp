@@ -12,7 +12,7 @@ function Home() {
   const [type, setType] = useState("");
   const [error, setError] = useState("");
   const [totalResults, setTotalResults] = useState(0);
-  const DEFAULT_QUERY = "avengers";
+  const DEFAULT_QUERY = "batman";
 
 
       const fetchMovies = async (searchText = query) => {
