@@ -18,7 +18,7 @@ function MovieDetails() {
 
   return (
     <div className="p-6 max-w-4xl mx-auto">
-      <div className="flex flex-col md:flex-row gap-6">
+      <div className="flex flex-col text-black md:flex-row gap-6">
         <img src={movie.Poster} className="w-64" />
         <div>
           <h1 className="text-2xl font-bold">{movie.Title}</h1>
